@@ -2,7 +2,7 @@ Package: imptools
 Type: Package
 Title: Imputation Tools
 Version: 0.0.0.9000
-Authors@R: 
+Authors@R: c(
     person(given = "Danny",
            family = "Squire",
            role = c("aut", "cre"),
@@ -11,6 +11,7 @@ Authors@R:
     person(given = "Daniel",
            family = "Bontempo",
            role = c("aut"))
+    )
 Maintainer: Danny Squire <danny.squire@ttu.edu>
 URL: https://github.com/dsquire/imptools
 Description: A collection of tools for visualizing imputed datasets.
