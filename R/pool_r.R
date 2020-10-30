@@ -1,3 +1,4 @@
+#' @export pool.r
 pool.r <- function (rVec, N)
 {
   fisherT <- function(x) 0.5 * log((1 + x) / (1 - x))
