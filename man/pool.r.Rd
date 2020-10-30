@@ -7,7 +7,7 @@
 pool.r(rVec, N)
 }
 \arguments{
-\item{N}{}
+\item{rVec, }{N}
 }
 \value{
 pooled r's
