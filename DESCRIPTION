@@ -10,7 +10,7 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-7423-9274")),
     person("Daniel",
            "Bontempo",
-           role = c("aut", "cre"),
+           role = c("aut"),
            email = "daniel.bontempo@ttu.edu")
     )
 Maintainer: Danny Squire <danny.squire@ttu.edu>
