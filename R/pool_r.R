@@ -1,3 +1,9 @@
+#' Pool Pearson correlation coefficients
+#'
+#' @param rVec, N
+#'
+#' @return pooled r's
+#'
 #' @export pool.r
 pool.r <- function (rVec, N)
 {
