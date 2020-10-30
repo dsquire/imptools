@@ -13,7 +13,6 @@ Authors@R: c(
            role = c("aut"),
            email = "daniel.bontempo@ttu.edu")
     )
-Maintainer: Danny Squire <danny.squire@ttu.edu>
 URL: https://github.com/dsquire/imptools
 Description: A collection of tools for visualizing imputed datasets.
 License: MIT + file LICENSE.md
