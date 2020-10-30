@@ -3,14 +3,15 @@ Type: Package
 Title: Imputation Tools
 Version: 0.0.0.9000
 Authors@R: c(
-    person(given = "Danny",
-           family = "Squire",
+    person("Danny",
+           "Squire",
            role = c("aut", "cre"),
            email = "danny.squire@ttu.edu",
            comment = c(ORCID = "0000-0001-7423-9274"))
-    person(given = "Daniel",
-           family = "Bontempo",
-           role = c("aut"))
+    person("Daniel",
+           "Bontempo",
+           role = c("aut", "cre"),
+           email = "daniel.bontempo@ttu.edu")
     )
 Maintainer: Danny Squire <danny.squire@ttu.edu>
 URL: https://github.com/dsquire/imptools
