@@ -31,7 +31,7 @@ pool.r <- function (rVec, N)
   # Component t is the total variance of the pooled estimated, formula (3.1.5) Rubin (1987)
   table[2] <- backFisherT( zPool - 1.96 * sqrt(poolObj$t) )
   table[3] <- backFisherT( zPool + 1.96 * sqrt(poolObj$t) )
-  table[4] <- poolObj$f
+  table[4] <- poolObj$fmi
 
   names(table) <- c("rPool","lo95", "hi95", "fmi")
 
