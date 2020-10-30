@@ -36,4 +36,4 @@ pool.r <- function (rVec, N)
   names(table) <- c("rPool","lo95", "hi95", "fmi")
 
   return(table)
-} # end pool.r
+}
