@@ -7,10 +7,12 @@
 pool.r(rVec, N)
 }
 \arguments{
-\item{rVec, }{N}
+\item{rVec}{A vector of correlation coefficients}
+
+\item{N}{The number of imputations}
 }
 \value{
-pooled r's
+A vector of pooled r's
 }
 \description{
 Pool Pearson correlation coefficients

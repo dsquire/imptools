@@ -16,7 +16,3 @@ Defaults to "stack_id"}
 \description{
 Convert a list of data.frames to a stacked tibble
 }
-\examples{
-stack <- stack_mids(mids, .setid = "id_column")
-stack <- stack_mids(mids)
-}

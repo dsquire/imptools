@@ -1,8 +1,8 @@
 #' Pool Pearson correlation coefficients
 #'
-#' @param rVec, N
-#'
-#' @return pooled r's
+#' @param rVec A vector of correlation coefficients
+#' @param N The number of imputations
+#' @return A vector of pooled r's
 #'
 #' @export pool.r
 pool.r <- function (rVec, N)
