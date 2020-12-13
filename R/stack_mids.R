@@ -5,7 +5,7 @@
 #' more than 1 data.frames the key column increments by 1 for each data set.
 #' Defaults to "stack_id"
 #' @export
-stack_mids <- function(mids, .setid = "stack_id") {
+stack_mids <- function(mids, .setid = "imp_id") {
   if (is.list(mids))
     dplyr::bind_rows(mids, .id = .setid)
 }

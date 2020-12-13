@@ -22,4 +22,8 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Imports: 
     mice (>= 3.11.0),
-    dplyr (>= 1.0.2)
+    dplyr (>= 1.0.2),
+    tibble,
+    ggplot2,
+    glue,
+    rlang

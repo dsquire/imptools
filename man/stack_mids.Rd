@@ -4,7 +4,7 @@
 \alias{stack_mids}
 \title{Convert a list of data.frames to a stacked tibble}
 \usage{
-stack_mids(mids, .setid = "stack_id")
+stack_mids(mids, .setid = "imp_id")
 }
 \arguments{
 \item{mids}{A mice mids object.}

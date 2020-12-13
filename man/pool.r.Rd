@@ -4,7 +4,7 @@
 \alias{pool.r}
 \title{Pool Pearson correlation coefficients}
 \usage{
-pool.r(rVec, N)
+pool.r(rVec = NULL, N = NULL)
 }
 \arguments{
 \item{rVec}{A vector of correlation coefficients}
