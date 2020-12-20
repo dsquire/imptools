@@ -12,7 +12,7 @@ pool.r(rVec = NULL, N = NULL)
 \item{N}{The number of imputations}
 }
 \value{
-A vector of pooled r's
+a \link[tibble:tibble-package]{tibble}
 }
 \description{
 Pool Pearson correlation coefficients

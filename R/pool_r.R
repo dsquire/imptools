@@ -2,9 +2,8 @@
 #'
 #' @param rVec A vector of correlation coefficients
 #' @param N The number of imputations
-#' @return A vector of pooled r's
+#' @return a [tibble][tibble::tibble-package]
 #' @importFrom mice pool.scalar
-#' @importFrom tibble tibble
 #' @export pool.r
 pool.r <- function (rVec = NULL, N = NULL)
 {
