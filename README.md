@@ -1,6 +1,7 @@
 # imptools
 
 [![R-CMD-check](https://github.com/dsquire/imptools/workflows/R-CMD-check/badge.svg)](https://github.com/dsquire/imptools/actions)
+[![CodeFactor](https://www.codefactor.io/repository/github/dsquire/imptools/badge)](https://www.codefactor.io/repository/github/dsquire/imptools)
 
 Imputation Tools
 
