@@ -1,4 +1,7 @@
 # imptools
+
+[![R-CMD-check](https://github.com/dsquire/imptools/workflows/R-CMD-check/badge.svg)](https://github.com/dsquire/imptools/actions)
+
 Imputation Tools
 
 ## Installation
