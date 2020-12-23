@@ -15,7 +15,6 @@
 #' @export
 plot_density <- function(data, imp_id, plot_var, kernel = "auto") {
 
-  # TODO: Convert this logic to a function
   imp_id_str <- deparse(substitute(imp_id))
   if (!(imp_id_str %in% colnames(data))) {
     stop("Error: imp_id must exist in data frame.")

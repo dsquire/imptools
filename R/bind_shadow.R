@@ -9,5 +9,6 @@
 #' @export bind_shadow
 bind_shadow <- function(data, vars = dplyr::everything()) {
   dplyr::mutate(data, dplyr::across({{ vars }},
-                      ~dplyr::if_else(is.na(.), FALSE, TRUE), .names = "{.col}_NA"))
+                      ~dplyr::if_else(is.na(.), FALSE, TRUE),
+                      .names = "{.col}_NA"))
 }
