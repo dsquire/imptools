@@ -5,10 +5,10 @@
 #' @param data A data frame with missing values.
 #' @param vars A subset of variables to include in the shadow matrix.
 #' @return a [tibble][tibble::tibble-package]
-#' @importFrom dplyr mutate across if_else everything
+#' @importFrom dplyr mutate across everything
 #' @export bind_shadow
 bind_shadow <- function(data, vars = dplyr::everything()) {
   dplyr::mutate(data, dplyr::across({{ vars }},
-                      ~dplyr::if_else(is.na(.), FALSE, TRUE),
+                      ~is.na(.),
                       .names = "{.col}_NA"))
 }

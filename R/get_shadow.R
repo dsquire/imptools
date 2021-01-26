@@ -8,10 +8,10 @@
 #' @param vars A subset of variables to include in the shadow matrix.
 #'
 #' @return a [tibble][tibble::tibble-package]
-#' @importFrom dplyr transmute across if_else everything
+#' @importFrom dplyr transmute across everything
 #' @export get_shadow
 get_shadow <- function(data, vars = dplyr::everything()) {
   dplyr::transmute(data, dplyr::across({{ vars }},
-                                       ~dplyr::if_else(is.na(.), FALSE, TRUE),
+                                       ~is.na(.),
                                        .names = "{.col}_NA"))
 }
